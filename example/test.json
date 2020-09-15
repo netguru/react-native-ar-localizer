@@ -1,0 +1,47 @@
+[
+    {
+        "name": "netguru-HQ",
+        "latitude":52.4015279,
+        "longitude":16.8918892
+    },
+    {
+        "name": "Atrium Plaza",
+        "latitude":52.2389356,
+        "longitude":20.9930279
+    },
+    {
+        "name": "High 5ive TWO",
+        "latitude":50.0698789,
+        "longitude":19.9441827
+    },
+    {
+        "name": "Wrocław Office",
+        "latitude":51.109657,
+        "longitude":17.0344018
+    },
+    {
+        "name": "Olivia 4",
+        "latitude":54.4032344,
+        "longitude":18.5687097
+    },
+    {
+        "name": "Białystok Office",
+        "latitude":53.1278978,
+        "longitude":23.1703367
+    },
+    {
+        "name": "Katowice Office",
+        "latitude":50.258846,
+        "longitude":19.0176963
+    },
+    {
+        "name": "Łódź Office",
+        "latitude":51.7607598,
+        "longitude":19.4603782
+    },
+    {
+        "name": "Rzeszów Office",
+        "latitude":50.0140162,
+        "longitude":21.9585902
+    }
+]
