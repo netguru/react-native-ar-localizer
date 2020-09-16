@@ -4,18 +4,29 @@ React Native bridge for ARLocalizer
 
 ## Installation
 
+First step:
 ```sh
-npm install ar-localizer-rn
+yarn bootstrap
+```
+Then:
+```sh
+yarn example ios
+```
+Or
+```sh
+yarn example android
 ```
 
 ## Usage
-
+To use the package, you need to provide data with objects and theirs locations, check the `NetguruOffices.json` file from our example. Then, for example in App.tsx:
 ```js
 import ArLocalizerRn from "ar-localizer-rn";
 
 // ...
 
-const result = await ArLocalizerRn.multiply(3, 7);
+React.useEffect(() => {
+    ArLocalizerRn.createArView('../NetguruOffices.json');
+  }, []);
 ```
 
 ## Contributing
