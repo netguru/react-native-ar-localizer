@@ -28,6 +28,10 @@ React.useEffect(() => {
     ArLocalizerRn.createArView('../NetguruOffices.json');
   }, []);
 ```
+### Example
+The app shows distance from user's current location to defined location, screenshot from android device:
+
+![Screenshot](ArLocalizerRn.jpg?raw=true)
 
 ## Contributing
 
