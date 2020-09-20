@@ -9,7 +9,7 @@
 </p>
 
 <div align="center">
-  <a href="##Installation">Installation</a> &nbsp;|&nbsp; <a href="##Usage">Usage</a> &nbsp;|&nbsp; <a href="##Contributing">Contributing</a> &nbsp;|&nbsp; <a href="##Contributors">Contributors</a>
+  <a href="#Installation">Installation</a> &nbsp;|&nbsp; <a href="#Usage">Usage</a> &nbsp;|&nbsp; <a href="#Contributing">Contributing</a> &nbsp;|&nbsp; <a href="#Contributors">Contributors</a>
 </div>
 
 ## Installation
