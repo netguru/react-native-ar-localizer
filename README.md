@@ -1,6 +1,16 @@
-# ar-localizer-rn
+<div align="center">
+  <h1>React Native AR Localizer</h1>
+</div>
 
-React Native bridge for ARLocalizer
+## Introduction
+
+<p align="center">
+  React Native bridge for ARLocalizer
+</p>
+
+<div align="center">
+  <a href="##Installation">Installation</a> &nbsp;|&nbsp; <a href="##Usage">Usage</a> &nbsp;|&nbsp; <a href="##Contributing">Contributing</a> &nbsp;|&nbsp; <a href="##Contributors">Contributors</a>
+</div>
 
 ## Installation
 
