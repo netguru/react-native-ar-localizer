@@ -14,17 +14,9 @@
 
 ## Installation
 
-First step:
+Simply add package to your project
 ```sh
-yarn bootstrap
-```
-Then:
-```sh
-yarn example ios
-```
-Or
-```sh
-yarn example android
+yarn add react-native-ar-localizer
 ```
 
 ## Usage
@@ -46,6 +38,21 @@ The app shows distance from user's current location to defined location, screens
 ## Contributing
 
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
+
+### Installation
+
+First step:
+```sh
+yarn bootstrap
+```
+Then:
+```sh
+yarn example ios
+```
+Or
+```sh
+yarn example android
+```
 
 ## Contributors
 <div>
