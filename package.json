@@ -1,6 +1,6 @@
 {
   "name": "react-native-ar-localizer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React Native bridge for ARLocalizer",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
