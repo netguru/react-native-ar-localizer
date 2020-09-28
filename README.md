@@ -41,11 +41,11 @@ React.useEffect(() => {
   }, []);
 ```
 ### Example
-The app shows distance from user's current location to defined location, screenshot from android device:
+The app shows distance from user's current location to defined location, example usage:
 
-![Screenshot](./assets/ArLocalizerRn.jpg?raw=true)
-
-![Usage Gif](./assets/readme_Usage.gif)
+| Screenshot | Screen recording | 
+| :------: | :------: | 
+| ![Screenshot](./assets/ArLocalizerRn.jpg?raw=true) | ![Screen recording](./assets/readme_Usage.gif) |
 
 ## Contributing
 
