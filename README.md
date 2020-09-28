@@ -2,6 +2,16 @@
   <h1>React Native AR Localizer</h1>
 </div>
 
+<div align="center">
+  <image src="https://badge.fury.io/js/react-native-ar-localizer.svg"/>
+  <image src="https://img.shields.io/npm/dt/react-native-ar-localizer"/>
+</div>
+<div align="center">
+    <br/><em>Brought with</em> &nbsp;❤️ <em>by</em> &nbsp; <a href="https://www.netguru.com">
+        <img align="center" alt="Netguru logo" src='./assets/readme_netguru_logo.png' width='30'/>
+      </a>
+</div>
+
 ## Introduction
 
 <p align="center">
@@ -34,6 +44,8 @@ React.useEffect(() => {
 The app shows distance from user's current location to defined location, screenshot from android device:
 
 ![Screenshot](./assets/ArLocalizerRn.jpg?raw=true)
+
+![Usage Gif](./assets/readme_Usage.gif)
 
 ## Contributing
 
