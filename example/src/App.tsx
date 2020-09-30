@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { StyleSheet, View } from 'react-native';
-import ArLocalizerRn from 'ar-localizer-rn';
+import ArLocalizerRn from 'react-native-ar-localizer';
 
 export default function App() {
   React.useEffect(() => {
-    ArLocalizerRn.createArView('../NetguruOffices.json');
+    ArLocalizerRn.createArView(require('../NetguruOffices.json'));
   }, []);
 
   return <View style={styles.container} />;

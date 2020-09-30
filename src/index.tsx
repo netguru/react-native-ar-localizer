@@ -1,7 +1,8 @@
 import { NativeModules } from 'react-native';
+import type { Location } from './index.d';
 
 type ArLocalizerRnType = {
-  createArView(value: string): Promise<boolean>;
+  createArView(points: Location[]): Promise<boolean>;
 };
 
 const { ArLocalizerRn } = NativeModules;

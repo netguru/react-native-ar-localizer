@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "ar-localizer-rn": ["./src/index"]
+      "react-native-ar-localizer": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

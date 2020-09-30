@@ -32,7 +32,7 @@ yarn add react-native-ar-localizer
 ## Usage
 To use the package, you need to provide data with objects and theirs locations, check the `NetguruOffices.json` file from our example. Then, for example in App.tsx:
 ```js
-import ArLocalizerRn from "ar-localizer-rn";
+import ArLocalizerRn from "react-native-ar-localizer";
 
 // ...
 
