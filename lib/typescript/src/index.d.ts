@@ -1,5 +1,6 @@
+import type { Location } from './index.d';
 declare type ArLocalizerRnType = {
-    createArView(value: string): Promise<boolean>;
+    createArView(points: Location[]): Promise<boolean>;
 };
 declare const _default: ArLocalizerRnType;
 export default _default;

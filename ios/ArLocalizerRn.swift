@@ -4,12 +4,9 @@ import ARLocalizerView
 class ArLocalizerRn: NSObject {
     
     @objc(createArView:resolver:rejecter:)
-    func createArView(_ url: String, resolver resolve: RCTPromiseResolveBlock, rejecter reject:RCTPromiseRejectBlock)-> Void {
+    func createArView( value: NSArray, resolver resolve: RCTPromiseResolveBlock, rejecter reject:RCTPromiseRejectBlock)-> Void {
         DispatchQueue.main.async(execute: {() -> Void in
-            guard let fileURL = Bundle.main.url(forResource: "NetguruOffices", withExtension: "json") else {
-                fatalError("NetguruOffices.json not found in the bundle's resources.")
-            }
-            let poiProvider = FilePOIProvider(fileURL: fileURL)
+            let poiProvider = ObjectPOIProvider(items: value)
             let arViewController = ARViewController(
                     viewModel: ARViewModel(poiProvider: poiProvider),
                 poiLabelViewType: SimplePOILabelView.self
