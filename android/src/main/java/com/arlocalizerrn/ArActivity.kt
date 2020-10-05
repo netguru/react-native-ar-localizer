@@ -12,27 +12,43 @@ import com.netguru.arlocalizerview.ARLocalizerDependencyProvider
 import com.netguru.arlocalizerview.arview.ARLocalizerView
 import com.netguru.arlocalizerview.location.LocationData
 
+
 class ArActivity : AppCompatActivity(), ARLocalizerDependencyProvider {
 
-  override fun onCreate(savedInstanceState: Bundle?) {
-    super.onCreate(savedInstanceState)
+    private fun getPoints():MutableList<LocationData>{
+        val locationData = intent.getSerializableExtra("locations") as? LocationList
+        val points = mutableListOf<LocationData>()
 
-    setContentView(R.layout.activity_ar)
+        val locations = locationData?.locations
 
-    // val backBtn = findViewById<Button>(R.id.back_btn)
-    val arView = findViewById<ARLocalizerView>(R.id.arLocalizer)
-    arView.onCreate(this)
-    arView.setDestinations(listOf(LocationData(56.3435, 45.32434)))
-    // backBtn.text="<"
-    // backBtn.setOnClickListener {
-    //   onBackClicked()
-    // }
-  }
+        if (locations != null) {
+            for (location in locations) {
+                points.add(LocationData(location["latitude"] as Double, location["longitude"] as Double))
+            }
+        }
+        return points
+
+    }
+
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_ar)
+
+        // val backBtn = findViewById<Button>(R.id.back_btn)
+        val arView = findViewById<ARLocalizerView>(R.id.arLocalizer)
+        arView.onCreate(this);
+        arView.setDestinations(this.getPoints())
+        // backBtn.text="<"
+        // backBtn.setOnClickListener {
+        //   onBackClicked()
+        // }
+    }
 //   private fun onBackClicked() {
 //       super.finish()
 //   }
 
-  override fun getSensorsContext() = this
-  override fun getARViewLifecycleOwner() = this
-  override fun getPermissionActivity() = this
+    override fun getSensorsContext() = this
+    override fun getARViewLifecycleOwner() = this
+    override fun getPermissionActivity() = this
 }

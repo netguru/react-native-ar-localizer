@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5E8C987D2508F0520098F2D9 /* BackButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8C987B2508F0520098F2D9 /* BackButtonViewController.swift */; };
 		5E8C987E2508F0520098F2D9 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8C987C2508F0520098F2D9 /* BackButton.swift */; };
+		7D166BA32524AC0600760554 /* ObjectPOIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D166BA22524AC0600760554 /* ObjectPOIProvider.swift */; };
 		F4FF95D7245B92E800C19C63 /* ArLocalizerRn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF95D6245B92E800C19C63 /* ArLocalizerRn.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		134814201AA4EA6300B7C361 /* libArLocalizerRn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libArLocalizerRn.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E8C987B2508F0520098F2D9 /* BackButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackButtonViewController.swift; sourceTree = "<group>"; };
 		5E8C987C2508F0520098F2D9 /* BackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		7D166BA22524AC0600760554 /* ObjectPOIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectPOIProvider.swift; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* ArLocalizerRn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArLocalizerRn.m; sourceTree = "<group>"; };
 		F4FF95D5245B92E700C19C63 /* ArLocalizerRn-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArLocalizerRn-Bridging-Header.h"; sourceTree = "<group>"; };
 		F4FF95D6245B92E800C19C63 /* ArLocalizerRn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArLocalizerRn.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				7D166BA22524AC0600760554 /* ObjectPOIProvider.swift */,
 				F4FF95D6245B92E800C19C63 /* ArLocalizerRn.swift */,
 				B3E7B5891CC2AC0600A0062D /* ArLocalizerRn.m */,
 				F4FF95D5245B92E700C19C63 /* ArLocalizerRn-Bridging-Header.h */,
@@ -122,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4FF95D7245B92E800C19C63 /* ArLocalizerRn.swift in Sources */,
+				7D166BA32524AC0600760554 /* ObjectPOIProvider.swift in Sources */,
 				5E8C987D2508F0520098F2D9 /* BackButtonViewController.swift in Sources */,
 				5E8C987E2508F0520098F2D9 /* BackButton.swift in Sources */,
 			);
