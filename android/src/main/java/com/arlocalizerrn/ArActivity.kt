@@ -33,12 +33,6 @@ class ArActivity : AppCompatActivity(), ARLocalizerDependencyProvider {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-
-
-
-
-
         setContentView(R.layout.activity_ar)
 
         // val backBtn = findViewById<Button>(R.id.back_btn)
